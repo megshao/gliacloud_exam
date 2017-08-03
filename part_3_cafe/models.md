@@ -44,8 +44,10 @@ Models:
 		id
 		name:varchar(20)
 		price:int
+		description:text
+		image_url:text
 		cafe:cafe_id
 
 		funs:
-			update(name:string, price:int)
+			update(name:string, price:int, image_url:string, description:string)
 
