@@ -7,9 +7,10 @@ Models:
 		rating:float
 		commodities:[commodit_id]
 		open_time:varchar(50)
+		image_url:text
 
 		funs:
-			update_cafe_info(name:string, address:string, open_time:string)
+			update_cafe_info(name:string, address:string, open_time:string, image_url:string)
 			cal_rating()
 			add_commodity(new_commodity:Commodity)
 			remove_commofity(commofity_id:int)
