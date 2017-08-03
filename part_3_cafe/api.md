@@ -87,4 +87,12 @@ APIs:
 	DELETE /users/{id}
 		delete user by user_id
 
+	POST /users/login
+		user login
 
+		field:
+			name:string
+			password:string
+
+	POST /users/logout
+		user logout
