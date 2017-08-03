@@ -31,10 +31,13 @@ Models:
 		id
 		token:char(20)
 		name:varchar(20)
+		password:varchar(10)
 		gender:1 or 0
 		rated_list:[rate_id]
 
 		funs:
+			login()
+			logout()
 			garenate_token()
 			update(name:string, gender:boolean)
 			add_rated_list(rating:Rate)
